@@ -1,0 +1,80 @@
+[
+  {
+    "fault": "(none)",
+    "runs": 3,
+    "bugs_total": 0,
+    "correctness": 0,
+    "crash": 0,
+    "signals": [],
+    "noise_overflow": 0
+  },
+  {
+    "fault": "crash-deep",
+    "runs": 3,
+    "bugs_total": 56,
+    "correctness": 0,
+    "crash": 56,
+    "signals": [
+      "signal 11 (SIGSEGV)"
+    ],
+    "noise_overflow": 0
+  },
+  {
+    "fault": "drop-const",
+    "runs": 3,
+    "bugs_total": 90,
+    "correctness": 90,
+    "crash": 0,
+    "signals": [
+      "cross-form",
+      "uniform"
+    ],
+    "noise_overflow": 0
+  },
+  {
+    "fault": "horner",
+    "runs": 3,
+    "bugs_total": 83,
+    "correctness": 83,
+    "crash": 0,
+    "signals": [
+      "cross-form"
+    ],
+    "noise_overflow": 0
+  },
+  {
+    "fault": "negative-plain",
+    "runs": 3,
+    "bugs_total": 43,
+    "correctness": 43,
+    "crash": 0,
+    "signals": [
+      "cross-form"
+    ],
+    "noise_overflow": 0
+  },
+  {
+    "fault": "square",
+    "runs": 3,
+    "bugs_total": 90,
+    "correctness": 90,
+    "crash": 0,
+    "signals": [
+      "cross-form",
+      "uniform"
+    ],
+    "noise_overflow": 0
+  },
+  {
+    "fault": "wrong-modulus",
+    "runs": 3,
+    "bugs_total": 63,
+    "correctness": 63,
+    "crash": 0,
+    "signals": [
+      "cross-form",
+      "uniform"
+    ],
+    "noise_overflow": 0
+  }
+]

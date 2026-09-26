@@ -1,0 +1,20 @@
+{
+  "target": "seal-bfv",
+  "iterations": 120,
+  "eta0": 146.0,
+  "verdicts": {
+    "ok": 120,
+    "noise-overflow": 0,
+    "crash": 0,
+    "candidate": 0,
+    "confirmed": 0,
+    "rejected": 0
+  },
+  "bugs": 0,
+  "corpus": {
+    "seeds": 44,
+    "max_priority": 64.0,
+    "boundary_seeds": 0
+  },
+  "elapsed_s": 8.95
+}

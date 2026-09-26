@@ -1,0 +1,44 @@
+{
+  "target": "lattigo-bgv",
+  "iterations": 200,
+  "eta0": 1.0,
+  "verdicts": {
+    "ok": 200,
+    "noise-overflow": 0,
+    "crash": 0,
+    "candidate": 0,
+    "confirmed": 0,
+    "rejected": 0
+  },
+  "bugs": 0,
+  "suppressed_bugs": 0,
+  "corpus": {
+    "seeds": 135,
+    "max_priority": 64.0,
+    "boundary_seeds": 14
+  },
+  "degree_distribution": {
+    "1": 3,
+    "2": 10,
+    "3": 12,
+    "4": 175
+  },
+  "clamped_cases": 70,
+  "discarded_after_clamp": 0,
+  "calibration": {
+    "status": "ok",
+    "samples": 200,
+    "quantiles": {
+      "p10": 0.52931446,
+      "p25": 0.54138498,
+      "p50": 0.58875096,
+      "p70": 0.60439433,
+      "p90": 0.61250264
+    },
+    "recommended_tau_low": 0.52931446,
+    "recommended_tau_high": 0.60439433,
+    "boundary_seeds_marked": 14,
+    "method": "P10/P70 of observed residual noise ratio"
+  },
+  "elapsed_s": 9.03
+}

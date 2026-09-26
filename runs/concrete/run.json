@@ -1,0 +1,20 @@
+{
+  "target": "concrete",
+  "iterations": 12,
+  "eta0": 1.0,
+  "verdicts": {
+    "ok": 12,
+    "noise-overflow": 0,
+    "crash": 0,
+    "candidate": 0,
+    "confirmed": 0,
+    "rejected": 0
+  },
+  "bugs": 0,
+  "corpus": {
+    "seeds": 23,
+    "max_priority": 1.0,
+    "boundary_seeds": 0
+  },
+  "elapsed_s": 16.27
+}

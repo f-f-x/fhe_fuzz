@@ -1,0 +1,31 @@
+{
+  "target": "lattigo-bgv",
+  "iterations": 300,
+  "eta0": 1.0,
+  "verdicts": {
+    "ok": 300,
+    "noise-overflow": 0,
+    "crash": 0,
+    "candidate": 0,
+    "confirmed": 0,
+    "rejected": 0
+  },
+  "bugs": 0,
+  "suppressed_bugs": 0,
+  "corpus": {
+    "seeds": 183,
+    "max_priority": 64.0,
+    "boundary_seeds": 0
+  },
+  "degree_distribution": {
+    "0": 1,
+    "2": 11,
+    "3": 20,
+    "4": 25,
+    "5": 243
+  },
+  "clamped_cases": 0,
+  "discarded_after_clamp": 0,
+  "calibration": null,
+  "elapsed_s": 14.47
+}

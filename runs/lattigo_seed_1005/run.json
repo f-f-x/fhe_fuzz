@@ -1,0 +1,20 @@
+{
+  "target": "lattigo-bgv",
+  "iterations": 50000,
+  "eta0": 1.0,
+  "verdicts": {
+    "ok": 13106,
+    "noise-overflow": 1607,
+    "crash": 0,
+    "candidate": 35287,
+    "confirmed": 19878,
+    "rejected": 11
+  },
+  "bugs": 19878,
+  "corpus": {
+    "seeds": 30398,
+    "max_priority": 1.0,
+    "boundary_seeds": 0
+  },
+  "elapsed_s": 30873.06
+}

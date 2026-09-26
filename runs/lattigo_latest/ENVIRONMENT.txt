@@ -1,0 +1,12 @@
+repository: https://github.com/tuneinsight/lattigo
+ref: main (fresh fetch 2026-09-24 UTC)
+commit: 5dbffbdea05394de2ca3a432ed5318aa832e3f40
+commit_date: 2026-05-07T12:30:53+02:00
+go: go1.25.0 linux/amd64
+parameters: BGV LogN=10, T=0x101, Q/P from schemes/bgv/bgv_test.go
+fuzz_seed: 20260924
+fuzz_iterations: 300
+fuzz_slots: 16
+fuzz_repeats: 3
+normal_result: 231 ok, 69 expected noise-overflow, 0 confirmed library bugs
+fault_validation: drop-const, 64 confirmed cross-form injected divergences

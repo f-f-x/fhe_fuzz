@@ -1,0 +1,20 @@
+{
+  "target": "lattigo-bgv+fault:drop-constant",
+  "iterations": 80,
+  "eta0": 1.0,
+  "verdicts": {
+    "ok": 66,
+    "noise-overflow": 14,
+    "crash": 0,
+    "candidate": 0,
+    "confirmed": 0,
+    "rejected": 0
+  },
+  "bugs": 0,
+  "corpus": {
+    "seeds": 88,
+    "max_priority": 1.0,
+    "boundary_seeds": 0
+  },
+  "elapsed_s": 4.59
+}

@@ -1,0 +1,38 @@
+{
+  "target": "seal-bfv",
+  "iterations": 5,
+  "eta0": 146.0,
+  "verdicts": {
+    "ok": 5,
+    "noise-overflow": 0,
+    "crash": 0,
+    "candidate": 0,
+    "confirmed": 0,
+    "rejected": 0
+  },
+  "bugs": 0,
+  "suppressed_bugs": 0,
+  "corpus": {
+    "seeds": 17,
+    "max_priority": 1.5,
+    "boundary_seeds": 0
+  },
+  "degree_distribution": {
+    "2": 4,
+    "3": 1
+  },
+  "params_id_distribution": {
+    "default": 5
+  },
+  "postfix_distribution": {
+    "identity": 5
+  },
+  "scale_invariant_distribution": {
+    "bgv": 5
+  },
+  "clamped_cases": 0,
+  "discarded_after_clamp": 0,
+  "calibration": null,
+  "target_metadata": {},
+  "elapsed_s": 0.37
+}

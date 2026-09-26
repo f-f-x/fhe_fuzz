@@ -1,0 +1,34 @@
+# Python bytecode and local test tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Compiler products and transient probe output; sources and build scripts stay tracked.
+probes/openfhe_binfhe/build_*/
+probes/openfhe_binfhe/*.log
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# Local FHE/compiler artefacts are reproducible from the documented environment.
+.artifacts/
+
+# Runtime campaigns can be tens of megabytes.  Keep only compact, auditable
+# summaries and explicit invalidation/issue records in version control.
+/runs/*/*
+!/runs/oracle_matrix_seal.json
+!/runs/*/run.json
+!/runs/*/INVALIDATED.md
+!/runs/*/ISSUE_DRAFT.md
+!/runs/*/ENVIRONMENT.txt
+
+# Go fuzz work directories and coverage output
+go_native/lattigo_bgv/testdata/fuzz/*
+!go_native/lattigo_bgv/testdata/fuzz/FuzzBGVArithmeticAgainstNative/
+!go_native/lattigo_bgv/testdata/fuzz/FuzzBGVArithmeticAgainstNative/f0109f64072ad6c4
+cover.out
